@@ -52,7 +52,6 @@ projeto/
 ├── .gitignore
 ├── ACKNOWLEDGMENTS.md
 ├── README.md                # README na raiz
-├── notebook-ds-project.ipynb
 └── requirements.txt
 ```
 
