@@ -37,3 +37,93 @@ O desenvolvimento completo e os resultados detalhados estão descritos neste [ar
 ## 📊 Estrutura do Projeto
 
 A estrutura do repositório foi organizada para facilitar a navegação e reprodutibilidade:
+
+├── data/ # Instruções para download do dataset
+├── notebooks/ # Notebooks de análise e experimentação
+├── src/ # Código fonte modularizado
+│ ├── data_loader.py
+│ ├── model.py
+│ ├── train.py
+│ └── evaluate.py
+├── models/ # Modelos treinados salvos 
+├── reports/ # Figuras e logs gerados
+├── requirements.txt # Dependências do projeto
+└── README.md # Documentação principal
+
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+
+*   Python 3.8 ou superior.
+*   `pip` (gerenciador de pacotes do Python).
+*   (Opcional) GPU com CUDA para treinamento mais rápido.
+
+### Passo a Passo
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/FrankleytonCardoso/chest-xray-pneumonia-cnn.git
+    cd chest-xray-pneumonia-cnn
+    ```
+
+2.  **Instale as dependências:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Baixe o dataset:**
+    *   Acesse o [dataset no Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).
+    *   Coloque os arquivos na pasta `data/`. A estrutura esperada é:
+        ```
+        data/
+            chest_xray/
+                train/
+                    NORMAL/
+                    PNEUMONIA/
+                val/
+                    NORMAL/
+                    PNEUMONIA/
+                test/
+                    NORMAL/
+                    PNEUMONIA/
+        ```
+
+4.  **Execute o treinamento:**
+    ```bash
+    python src/train.py
+    ```
+    (Os logs e o modelo treinado serão salvos em `reports/logs/` e `models/`, respectivamente.)
+
+5.  **Avalie o modelo treinado:**
+    ```bash
+    python src/evaluate.py
+    ```
+
+## 📈 Principais Resultados
+
+*   **Modelo:** ResNet18 pré-treinado com *transfer learning*.
+*   **Acurácia no Teste:** 76,12%.
+*   **Técnicas de Pré-processamento:** CLAHE para melhoria de contraste, normalização e *data augmentation* (rotação, inversão horizontal) para combater overfitting.
+
+Para uma análise mais aprofundada, leia o [artigo completo no Medium](link_para_o_seu_artigo).
+
+## 🤝 Como Contribuir
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma *issue* ou um *pull request*.
+
+1.  Faça um *fork* do projeto.
+2.  Crie uma *branch* para sua feature (`git checkout -b feature/nova-feature`).
+3.  Faça o *commit* das suas alterações (`git commit -m 'Adiciona nova feature'`).
+4.  Faça o *push* para a *branch* (`git push origin feature/nova-feature`).
+5.  Abra um *Pull Request*.
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## ✉️ Contato
+
+*   **Autor:** [Frankleyton Cardoso de Oliveira]
+*   **Medium:** [@@kleyto.cardoso](https://medium.com/@kleyto.cardoso)
+*   **LinkedIn:** [Linkedin]([link_para_seu_perfil_linkedin](https://www.linkedin.com/in/frankleyton-oliveira-22b72a112/))
