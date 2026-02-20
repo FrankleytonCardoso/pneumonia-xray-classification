@@ -3,8 +3,8 @@ Classificação de Pneumonia em imagens de Raio-X utilizando Redes Neurais Convo
 
 # Classificação de Pneumonia em Raios-X com Redes Neurais Convolucionais (CNN)
 
-[![Medium]([https://medium.com/@kleyto.cardoso/pneumonia-classification-on-x-rays-with-convolutional-neural-networks-cnn-0214061c8b80)](link_para_o_seu_artigo)
-[![Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)](link_para_o_seu_notebook_original_no_kaggle)
+[![Medium](https://img.shields.io/badge/Medium-Artigo-blue)](https://medium.com/@kleyto.cardoso/pneumonia-classification-on-x-rays-with-convolutional-neural-networks-cnn-0214061c8b80)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-orange)]([link_para_o_seu_notebook_original_no_kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia))
 [![Python](https://img.shields.io/badge/Python-3.8%2B-brightgreen)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9%2B-red)](https://pytorch.org/)
 
