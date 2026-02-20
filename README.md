@@ -22,12 +22,6 @@ O desenvolvimento completo e os resultados detalhados estão descritos neste [ar
 *   Demonstrar a aplicação prática de *transfer learning* com a arquitetura ResNet18.
 *   Fornecer um modelo de código aberto e acessível para a comunidade.
 
-## 🙏 Agradecimentos Especiais
-
-Gostaria de expressar minha sincera gratidão ao **Paul Mooney** por criar e disponibilizar publicamente o dataset **[Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)** no Kaggle.
-
-Sua contribuição para a comunidade de ciência de dados e aprendizado de máquina é inestimável, permitindo que pesquisadores, estudantes e entusiastas como eu possam desenvolver e testar modelos para aplicações médicas tão importantes. Projetos como este só são possíveis graças à generosidade de pessoas como você que compartilham dados e conhecimento com a comunidade.
-
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 
 *   **Linguagem:** Python 3.10
