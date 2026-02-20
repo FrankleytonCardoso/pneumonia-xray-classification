@@ -118,10 +118,6 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma *issu
 4.  Faça o *push* para a *branch* (`git push origin feature/nova-feature`).
 5.  Abra um *Pull Request*.
 
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ## ✉️ Contato
 
 *   **Autor:** [Frankleyton Cardoso de Oliveira]
