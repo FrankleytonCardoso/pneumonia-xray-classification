@@ -39,12 +39,12 @@ O desenvolvimento completo e os resultados detalhados estão descritos neste [ar
 ```
 projeto/
 ├── data/                    # Dados do projeto
-│   └── README.md
+│   └── README.md            # Instruções para download do dataset
 ├── notebooks/               # Notebooks para análise exploratória
 │   └── notebook-ds-project.ipynb
 ├── src/                     # Código fonte principal
 │   ├── __init__.py
-│   ├── data_loader.py      # Carregamento de dados
+│   ├── data_loader.py       # Carregamento de dados
 │   ├── evaluate.py          # Avaliação de modelos
 │   ├── model.py             # Definição dos modelos
 │   ├── train.py             # Treinamento
