@@ -110,7 +110,7 @@ projeto/
 *   **Acurácia no Teste:** 76,12%.
 *   **Técnicas de Pré-processamento:** CLAHE para melhoria de contraste, normalização e *data augmentation* (rotação, inversão horizontal) para combater overfitting.
 
-Para uma análise mais aprofundada, leia o [artigo completo no Medium](link_para_o_seu_artigo).
+Para uma análise mais aprofundada, leia o [artigo completo no Medium]([link_para_o_seu_artigo](https://medium.com/@kleyto.cardoso/pneumonia-classification-on-x-rays-with-convolutional-neural-networks-cnn-0214061c8b80).
 
 ## 🤝 Como Contribuir
 
