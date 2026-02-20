@@ -68,7 +68,7 @@ projeto/
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/FrankleytonCardoso/chest-xray-pneumonia-cnn.git
+    git clone https://github.com/FrankleytonCardoso/pneumonia-xray-classification
     cd chest-xray-pneumonia-cnn
     ```
 
