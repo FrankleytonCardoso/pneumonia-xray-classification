@@ -34,10 +34,9 @@ O desenvolvimento completo e os resultados detalhados estão descritos neste [ar
 *   **Ambiente de Treinamento:** [Kaggle](https://www.kaggle.com/) com GPU NVIDIA.
 *   **Dataset:** [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) do Kaggle.
 
-## 📊 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
-A estrutura do repositório foi organizada para facilitar a navegação e reprodutibilidade:
-
+```
 projeto/
 ├── data/                    # Dados do projeto
 │   └── README.md
@@ -55,6 +54,7 @@ projeto/
 ├── README.md                # README na raiz
 ├── notebook-ds-project.ipynb
 └── requirements.txt
+```
 
 ## 🚀 Como Executar o Projeto
 
