@@ -38,18 +38,23 @@ O desenvolvimento completo e os resultados detalhados estão descritos neste [ar
 
 A estrutura do repositório foi organizada para facilitar a navegação e reprodutibilidade:
 
-├── data/ # Instruções para download do dataset
-├── notebooks/ # Notebooks de análise e experimentação
-├── src/ # Código fonte modularizado
-│ ├── data_loader.py
-│ ├── model.py
-│ ├── train.py
-│ └── evaluate.py
-├── models/ # Modelos treinados salvos 
-├── reports/ # Figuras e logs gerados
-├── requirements.txt # Dependências do projeto
-└── README.md # Documentação principal
-
+projeto/
+├── data/                    # Dados do projeto
+│   └── README.md
+├── notebooks/               # Notebooks para análise exploratória
+│   └── notebook-ds-project.ipynb
+├── src/                     # Código fonte principal
+│   ├── __init__.py
+│   ├── data_loader.py      # Carregamento de dados
+│   ├── evaluate.py          # Avaliação de modelos
+│   ├── model.py             # Definição dos modelos
+│   ├── train.py             # Treinamento
+│   └── visualize.py         # Visualizações
+├── .gitignore
+├── ACKNOWLEDGMENTS.md
+├── README.md                # README na raiz
+├── notebook-ds-project.ipynb
+└── requirements.txt
 
 ## 🚀 Como Executar o Projeto
 
