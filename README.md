@@ -121,5 +121,5 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma *issu
 ## ✉️ Contato
 
 *   **Autor:** [Frankleyton Cardoso de Oliveira]
-*   **Medium:** [@@kleyto.cardoso](https://medium.com/@kleyto.cardoso)
-*   **LinkedIn:** [Linkedin]([link_para_seu_perfil_linkedin](https://www.linkedin.com/in/frankleyton-oliveira-22b72a112/))
+*   **Medium:** [@kleyto.cardoso](https://medium.com/@kleyto.cardoso)
+*   **LinkedIn:** https://www.linkedin.com/in/frankleyton-oliveira-22b72a112/
